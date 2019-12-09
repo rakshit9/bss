@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".forgotPage">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/bss_logo" />
+
+    <EditText
+        android:id="@+id/femail"
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/edittext_lphone"
+
+        android:ems="10"
+        android:hint="Enater your Email"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/fsendlink"
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:text="Send Reset link"
+        android:background="@drawable/button_llogin"/>
+
+    <Button
+        android:id="@+id/flogin"
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:text="Login"
+        android:background="@drawable/button_llogin"/>
+
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".loginPage">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/bss_logo" />
+
+    <EditText
+        android:id="@+id/lemail"
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/edittext_lphone"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:ems="10"
+        android:hint=" Email"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/lpassword"
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_gravity="center_horizontal"
+        android:drawableLeft="@drawable/ic_vpn_key_black_24dp"
+        android:padding="10dp"
+        android:hint=" Password"
+        android:textSize="20dp"
+        android:background="@drawable/edittext_lphone"/>
+
+    <TextView
+        android:id="@+id/lforgot"
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textColor="@color/forgotcolor"
+        android:layout_marginTop="10dp"
+        android:text="Forgot Password"
+        android:textSize="16dp"
+        android:clickable="true" />
+
+    <Button
+        android:id="@+id/llogin"
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:text="Login"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_llogin"/>
+
+
+</LinearLayout>
